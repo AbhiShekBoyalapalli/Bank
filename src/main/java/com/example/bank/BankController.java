@@ -19,16 +19,16 @@ public class BankController {
     @GetMapping("/branches")
     public String getBranches(Model model) {
         List<Branch> branches = Arrays.asList(
-                new Branch("GandhiNagar Branch", "Gandhi Nagar, Vijayawada"),
-                new Branch("Indiranagar Branch", "Indiranagar, Vijayawada"),
-                new Branch("Jayanagar Branch", "Jayanagar, Vijayawada"),
-                new Branch("KPuram", "KPuram, Vijayawada"),
-                new Branch("E City Branch", "E City, Vijayawada"),
-                new Branch("MG Road Branch", "MG Road, Vijayawada"),
-                new Branch("Mahanadu Branch", "Mahanadu, Vijayawada"),
-                new Branch("Rajajinagar Branch", "Rajajinagar, Vijayawada"),
-                new Branch("Hindu Branch", "Hindu, Vijayawada"),
-                new Branch("JP Nagar Branch", "JP Nagar, Vijayawada")
+                new Branch("GandhiNagar Branch", "Gandhi Nagar, Bangalore"),
+                new Branch("Indiranagar Branch", "Indiranagar, Bangalore"),
+                new Branch("Jayanagar Branch", "Jayanagar, Bangalore"),
+                new Branch("KPuram", "KPuram, Bangalore"),
+                new Branch("E City Branch", "E City, Bangalore"),
+                new Branch("MG Road Branch", "MG Road, Bangalore"),
+                new Branch("Mahanadu Branch", "Mahanadu, Bangalore"),
+                new Branch("Rajajinagar Branch", "Rajajinagar, Bangalore"),
+                new Branch("Hindu Branch", "Hindu, Bangalore"),
+                new Branch("JP Nagar Branch", "JP Nagar, Bangalore")
         );
         model.addAttribute("bankName", "YES Bank");
         model.addAttribute("branches", branches);
