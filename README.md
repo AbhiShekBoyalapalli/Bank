@@ -27,10 +27,7 @@ The **Bank Application** is a Spring Boot-based web application designed to prov
 # Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/bank.git
-   cd bank
-   ```
+ 
 
 2. Configure your database connection in `application.properties`.
 
