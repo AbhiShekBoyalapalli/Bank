@@ -9,6 +9,11 @@ import java.util.List;
 
 @Controller
 public class BankController {
+    @GetMapping("/")
+    public String home() {
+        return "home";  
+    }
+    
 
    
     @GetMapping("/branches")
